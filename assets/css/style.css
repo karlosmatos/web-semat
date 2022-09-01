@@ -78,7 +78,7 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #2487ce;
+  border: 6px solid #3e9bdd;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -288,7 +288,7 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #124265;
+  color: #6aeeff;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -336,7 +336,7 @@ h6 {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #fff;
+  background-color: rgb(20, 20, 20);
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -345,13 +345,13 @@ h6 {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #124265;
+  color: #ffffff;
 }
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #2487ce;
+  color: #6aeeff;
 }
 
 .navbar-mobile .getstarted,
@@ -367,7 +367,7 @@ h6 {
   z-index: 99;
   opacity: 1;
   visibility: visible;
-  background: #fff;
+  background: rgb(20, 20, 20);
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
 }
 
@@ -386,7 +386,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #2487ce;
+  color: #6aeeff;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
