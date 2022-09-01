@@ -1,9 +1,3 @@
-/**
-* Template Name: OnePage - v4.8.1
-* Template URL: https://bootstrapmade.com/onepage-multipurpose-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
@@ -471,6 +465,7 @@ h6 {
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
   z-index: 1;
+  width: 100%;
 }
 
 #hero .icon-box .title {
