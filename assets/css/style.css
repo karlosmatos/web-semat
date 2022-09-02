@@ -641,6 +641,7 @@ section {
   background: rgb(83, 83, 83);
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
   border-radius: 6px;
+  height: 500px;
 }
 
 .services .icon-box .icon {
@@ -687,6 +688,32 @@ section {
   font-size: 14px;
   margin-bottom: 0;
   color: #aeaeae;
+}
+
+.services .icon-box ul {
+  list-style: none;
+  padding: 10px 0 0 0;
+  text-align: left;
+}
+
+.services .icon-box ul li {
+  margin-top: 10px;
+  padding-left: 28px;
+  position: relative;
+  color: #aeaeae;
+  font-size: 14px;
+}
+
+.services .icon-box ul li+li {
+  margin-top: 10px;
+}
+
+.services .icon-box ul i {
+  position: absolute;
+  left: 10px;
+  top: 2px;
+  color: #24c6ce;
+  line-height: 1;
 }
 
 .services .icon-box:hover {
@@ -1161,12 +1188,21 @@ section {
   font-weight: 300;
 }
 
-#footer .footer-top .footer-contact p {
+#footer .footer-top .footer-contact table {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Raleway", sans-serif;
   color: #777777;
+  border-collapse: separate;
+  border-spacing: 2px;
+  table-layout: fixed;
+  min-width: 100%;
+  white-space: nowrap;
+}
+
+#footer .footer-top .footer-contact table tr td {
+  padding-right: 30px;
 }
 
 #footer .footer-top h4 {
